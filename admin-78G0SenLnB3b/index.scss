@@ -1,0 +1,38 @@
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+overflow: hidden;
+background: #ffffff;
+}
+form {
+    position: relative;
+    display: flex;
+    margin-top: -100px;
+    flex-direction: column;
+>h4 {
+text-align: center;
+font-size: 36px;
+font-family: 'montserrat';
+margin-bottom: 24px;
+}
+>button {
+    background: #01AADD;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 24px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'montserrat';
+}
+>input {
+    border: 1px solid #01AADD;
+outline: none;
+
+padding: 10px 20px;
+}
+}

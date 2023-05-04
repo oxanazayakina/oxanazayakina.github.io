@@ -1,0 +1,124 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+body > div {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+h1, h3 {
+  font-family: 'Montserrat';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin-top: 12px;
+}
+
+.filter {
+  min-width: 240px;
+  height: 44px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  padding-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  background: #e4e4e4;
+}
+
+.filter:hover {
+  background: #d3d3d3;
+}
+
+.filter > p {
+  font-family: 'Montserrat';
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.table {
+  pointer-events: none;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 18px;
+  background: #f3f3f3;
+}
+
+.table > div {
+  min-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: #a1a1a1 1px solid;
+}
+
+.table > div:first-child {
+  border: 0;
+}
+
+.table > div:nth-child(2) {
+  border-top: #777 1px solid;
+}
+
+.table > div > div {
+  min-width: 359px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+  border-left: 1px solid #777;
+}
+
+.table > div > div:first-child {
+  border: 0;
+}
+
+.table > div > div > p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  margin-left: 24px;
+  color: #222222;
+}
+
+.table__header {
+  width: 100%;
+  min-height: 45px;
+  background: #e4e4e4;
+}
+/*# sourceMappingURL=index.css.map */
